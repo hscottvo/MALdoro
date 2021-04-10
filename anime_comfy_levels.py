@@ -85,8 +85,8 @@ def main():
     #     thread.join()
 
     # # Regular shitty way
-    # for id in anime_id:
-    #     anime_levels(id)
+    # for id in curr_id:
+    #     anime_list.append(anime_levels(id))
 
     end = time.perf_counter()
 
