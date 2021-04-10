@@ -60,6 +60,9 @@
 # window.mainloop()
 
 
+
+
+
 from tkinter import *
 from tkinter.ttk import Combobox, Separator
 #Creating tkinter window
@@ -67,33 +70,75 @@ window = Tk()
 window.geometry('650x750')
 window.title('MALdoro')
 
+####################  Buttons
+Submit = Button(window, text="Submit")
+Submit.place(x=550, y= 450)
 
-########## Labels
+####################  Labels
 lbl=Label(window, text="Genres", fg='black', font=("Times New Roman", 12))
-lbl.place(x=60, y=50)
-########## Bunch of Checkboxes      
+lbl.place(x=450, y=100)
+
+
+####################  Bunch of Checkboxes 
+#########Genre Checkboxes
 v1 = IntVar()
 v2 = IntVar()
+v3 = IntVar()
+v4 = IntVar()
+v5 = IntVar()
+v6 = IntVar()
+v7 = IntVar()
+v8 = IntVar()
+v9 = IntVar()
+v10 = IntVar()
+v11 = IntVar()
+v12 = IntVar()
 C1 = Checkbutton(window, text = "Ecchi", variable = v1)
 C2 = Checkbutton(window, text = "Harem", variable = v2)
-C1.place(x=100, y=100)
-C2.place(x=180, y=100)
+C3 = Checkbutton(window, text = "Action", variable = v3)
+C4 = Checkbutton(window, text = "Adventure", variable = v4)
+C5 = Checkbutton(window, text = "Mystery", variable = v5)
+C6 = Checkbutton(window, text = "Romance", variable = v6)
+C7 = Checkbutton(window, text = "Fantasy", variable = v7)
+C8 = Checkbutton(window, text = "Psychological", variable = v8)
+C9 = Checkbutton(window, text = "School", variable = v9)
+C10 = Checkbutton(window, text = "Shounen", variable = v10)
+C11 = Checkbutton(window, text = "Magic", variable = v11)
+C12 = Checkbutton(window, text = "Slice of Life", variable = v12)
+C1.place(x=450, y=150)
+C2.place(x=520, y=150)
+C3.place(x=450, y=200)
+C4.place(x=520, y=200)
+C5.place(x=450, y=250)
+C6.place(x=520, y=250)
+C7.place(x=450, y=300)
+C8.place(x=520, y=300)
+C9.place(x=450, y=350)
+C10.place(x=520, y=350)
+C11.place(x=450, y=400)
+C12.place(x=520, y=400)
 
-########## Dropdown lists
-Label(window, text = "To Do level : ", 
-        font = ("Times New Roman", 10)).grid(column = 0, 
-        row = 15, padx = 10, pady = 25) 
+####################  Dropdown lists
+Label(window, text = "To Do level : ", font = ("Times New Roman", 10)).place(x=450, y=25)
 n = StringVar()
 ToDoLvl = Combobox(window, width = 27, textvariable = n, state= "readonly")
-  
-# Adding combobox drop down list
 ToDoLvl['values'] = ('1', '2','3','4','5',)
   
-ToDoLvl.grid(column = 1, row = 15)
+ToDoLvl.place(x=450, y=50)
 ToDoLvl.current(1) 
 
-separator = Separator(window, orient='horizontal')
-separator.place(relx=0, rely=0.47, relwidth=1, relheight=1)
+####################  Separators
+Vseparator = Separator(window, orient='vertical')
+Vseparator.place(relx=0.65, rely=0, relwidth=0, relheight=1)
+Vseparator2 = Separator(window, orient='vertical')
+Vseparator2.place(relx=0.45, rely=0, relwidth=0, relheight=1)
+Vseparator3 = Separator(window, orient='vertical')
+Vseparator3.place(relx=0.25, rely=0, relwidth=0, relheight=1)
+
+Hseparator = Separator(window, orient='horizontal')
+Hseparator.place(relx=0, rely=0.7, relwidth=1, relheight=1)
+
+
 
 window.mainloop()
 
