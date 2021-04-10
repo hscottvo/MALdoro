@@ -45,8 +45,7 @@ def main():
 
     end = time.perf_counter()
 
-    for i in anime_list:
-        print(i[0],get_links(i[0]))
+    # print(anime_list[0][0],get_links(anime_list[0][0]))
 
     print(f'finished in {round(end-start,2)} second(s)')
 
