@@ -1,2 +1,5 @@
-from justwatch import JustWatch
+from mal import *
+
+anime = Anime(1)
+print(anime.title)
 
