@@ -1,0 +1,91 @@
+user_id,user_name,user_export_type,user_total_anime,user_total_watching,user_total_completed,user_total_onhold,user_total_dropped,user_total_plantowatch,series_animedb_id,series_title,series_type,series_episodes,my_id,my_watched_episodes,my_start_date,my_finish_date,my_rated,my_score,my_storage,my_storage_value,my_status,my_comments,my_times_watched,my_rewatch_value,my_priority,my_tags,my_rewatching,my_rewatching_ep,my_discuss,my_sns,update_on_import
+9334784,Morpise,1,90,4,57,0,0,29,30123,Akagami no Shirayuki-hime,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,6547,Angel Beats!,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,9989,Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.,TV,11,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38186,Bokutachi wa Benkyou ga Dekinai,TV,13,0,13,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,40004,Bokutachi wa Benkyou ga Dekinai!,TV,13,0,13,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,14741,Chuunibyou demo Koi ga Shitai!,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,1575,Code Geass: Hangyaku no Lelouch,TV,25,0,25,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,2904,Code Geass: Hangyaku no Lelouch R2,TV,25,0,25,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,31636,Dagashi Kashi,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,28121,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka,TV,13,0,13,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,32887,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37347,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II,TV,12,0,12,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,121,Fullmetal Alchemist,TV,51,0,51,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,5114,Fullmetal Alchemist: Brotherhood,TV,64,0,64,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,35222,Gakuen Babysitters,TV,12,0,12,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,21273,Gochuumon wa Usagi Desu ka?,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,27989,Hibike! Euphonium,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,31988,Hibike! Euphonium 2,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,28825,Himouto! Umaru-chan,TV,12,0,12,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,35376,Himouto! Umaru-chan R,TV,12,0,12,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37614,Hitoribocchi no Marumaru Seikatsu,TV,12,0,12,0000-00-00,0000-00-00,,7,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,578,Hotaru no Haka,Movie,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,431,Howl no Ugoku Shiro,Movie,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37497,Irozuku Sekai no Ashita kara,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38790,Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.,TV,12,0,12,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,40748,Jujutsu Kaisen (TV),TV,24,0,20,0000-00-00,0000-00-00,,10,,0,Watching,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,5680,K-On!,TV,13,0,13,0000-00-00,2020-09-07,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,7791,K-On!!,TV,26,0,26,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37999,Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,40591,Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,2130,Kaibutsu Oujo,TV,25,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,40221,Kami no Tou,TV,13,0,13,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,14713,Kamisama Hajimemashita,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,1004,Kanojo to Kanojo no Neko,OVA,1,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,35860,Karakai Jouzu no Takagi-san,TV,12,0,12,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38993,Karakai Jouzu no Takagi-san 2,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,24439,Kekkai Sensen,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,34451,Kekkai Sensen & Beyond,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38000,Kimetsu no Yaiba,TV,26,0,26,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,6045,Kimi ni Todoke,TV,25,0,25,0000-00-00,2021-02-26,,0,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,9656,Kimi ni Todoke 2nd Season,TV,12,0,4,0000-00-00,0000-00-00,,0,,0,Watching,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,32281,Kimi no Na wa.,Movie,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,39247,Kobayashi-san Chi no Maid Dragon S,TV,0,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,11887,Kokoro Connect,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,30831,Kono Subarashii Sekai ni Shukufuku wo!,TV,10,0,10,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,32937,Kono Subarashii Sekai ni Shukufuku wo! 2,TV,10,0,10,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,34626,Kono Subarashii Sekai ni Shukufuku wo! 2: Kono Subarashii Geijutsu ni Shukufuku wo!,OVA,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,32380,Kono Subarashii Sekai ni Shukufuku wo!: Kono Subarashii Choker ni Shukufuku wo!,OVA,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38040,Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu,Movie,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,18153,Kyoukai no Kanata,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,34599,Made in Abyss,TV,13,0,13,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,512,Majo no Takkyuubin,Movie,1,0,1,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,20541,Mikakunin de Shinkoukei,TV,12,0,12,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,585,Mimi wo Sumaseba,Movie,1,0,1,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,6336,Mobile Suit Gundam Unicorn,OVA,7,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,39535,Mushoku Tensei: Isekai Ittara Honki Dasu,TV,11,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,10165,Nichijou,TV,26,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,18897,Nisekoi,TV,20,0,3,0000-00-00,0000-00-00,,0,,0,Watching,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,30276,One Punch Man,TV,12,0,12,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,39292,Princess Connect! Re:Dive,TV,13,0,6,0000-00-00,0000-00-00,,0,,0,Watching,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,31240,Re:Zero kara Hajimeru Isekai Seikatsu,TV,25,0,25,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,28497,Rokka no Yuusha,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37450,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai,TV,13,0,13,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38938,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Picture Drama,Special,5,0,5,0000-00-00,0000-00-00,,7,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,199,Sen to Chihiro no Kamikakushi,Movie,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38787,Senryuu Shoujo,TV,12,0,12,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,23273,Shigatsu wa Kimi no Uso,TV,22,0,22,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37396,Shikioriori,Movie,3,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,25835,Shirobako,TV,24,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,35503,Shoujo?Kageki Revue Starlight,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,35839,Sora yori mo Tooi Basho,TV,13,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,2418,Stranger: Mukou Hadan,Movie,1,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,5681,Summer Wars,Movie,1,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,4382,Suzumiya Haruhi no Yuuutsu (2009),TV,14,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,32093,Tanaka-kun wa Itsumo Kedaruge,TV,12,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,35790,Tate no Yuusha no Nariagari,TV,25,0,25,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,513,Tenkuu no Shiro Laputa,Movie,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,3455,To LOVE-Ru,TV,26,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38480,Toaru Kagaku no Accelerator,TV,12,0,12,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,6213,Toaru Kagaku no Railgun,TV,24,0,24,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,16049,Toaru Kagaku no Railgun S,TV,24,0,24,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38481,Toaru Kagaku no Railgun T,TV,25,0,25,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,4654,Toaru Majutsu no Index,TV,24,0,24,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,8937,Toaru Majutsu no Index II,TV,24,0,24,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,36432,Toaru Majutsu no Index III,TV,26,0,26,0000-00-00,0000-00-00,,7,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,523,Tonari no Totoro,Movie,1,0,1,0000-00-00,0000-00-00,,9,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,36653,Tsurune: Kazemai Koukou Kyuudoubu,TV,13,0,13,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,38921,Tsurune: Kazemai Koukou Kyuudoubu - Yabai,Special,1,0,1,0000-00-00,0000-00-00,,10,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,37976,Zombieland Saga,TV,12,0,12,0000-00-00,0000-00-00,,8,,0,Completed,,0,,LOW,,0,0,1,default,0
+9334784,Morpise,1,90,4,57,0,0,29,40174,Zombieland Saga: Revenge,TV,0,0,0,0000-00-00,0000-00-00,,0,,0,Plan to Watch,,0,,LOW,,0,0,1,default,0
