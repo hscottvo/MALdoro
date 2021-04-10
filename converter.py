@@ -1,7 +1,6 @@
 # Importing the required libraries
 import xml.etree.ElementTree as Xet
 import pandas as pd
-import unicodedata
 
 
 
@@ -10,11 +9,12 @@ def parse_xml(filename):
     rows = []
     
     # Parsing the XML file
-    xmlparse = Xet.parse(filename)
+    xmlp = Xet.XMLParser(encoding="utf-8")
+    xmlparse = Xet.parse(filename, parser=xmlp))
     root = xmlparse.getroot()
     for i in root:
         series_title = getattr(i.find('series_title'), 'text', None)
-        print('Found Series Title: ' + series_title)   
+        # print('Found Series Title: ' + str(series_title))   
         series_episodes = getattr(i.find('series_episodes'), 'text', None)
         print('Found Series Episodes: ' + str(series_episodes))
         my_watched_episodes = getattr(i.find('my_watched_episodes'), 'text', None)
