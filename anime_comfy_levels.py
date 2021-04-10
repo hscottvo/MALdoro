@@ -5,27 +5,8 @@ import threading
 import multiprocessing
 import time
 
-start = time.perf_counter()
 
-stress_genres = ["Dementia","Horror", "Mystery", "Psychological", "Thriller", "Historical", "Military", "Martial Arts", "Samurai", "Drama", "Police", "Seinen", "Shounen", "Space", "Sci-Fi", "Mecha", "Sports", "Supernatural"]
-calm_genres = ["Action","Adventure","Comedy", "Ecchi", "Fantasy", "Game", "Harem", "Kids", "Parody", "Slice of Life", "Romance", "Music", "School", "Shoujo", "Shouji Ai", "Shounen Ai", "Yaoi", "Yuri"]
-neutral_genres = ["Magic", "Super Power", "Cars", "Demons", "Josei", "Vampire"]
-
-anime_id_new = []
-anime_id_completed = []
-
-FILENAME = "output.csv"
-with open(FILENAME, newline = "") as file:
-    reader = csv.reader(file)
-    for row in reader:
-        if row[4] == "Plan to Watch":
-            anime_id_new.append(row[5])
-        elif row[4] == "Completed":
-            anime_id_completed.append(row[5])
-
-anime_list = []
-
-def anime_levels(id):
+def anime_levels(id, genres):
     anime = Anime(id)
     show_genres = anime.genres
 
@@ -35,11 +16,11 @@ def anime_levels(id):
     neutral_counter = 0
 
     for genre in show_genres:
-        if genre in stress_genres:
+        if genre in genres.stress_genres:
             stress_counter +=1
-        elif genre in calm_genres:
+        elif genre in genres.calm_genres:
             calm_counter += 1
-        elif genre in neutral_genres:
+        elif genre in genres.neutral_genres:
             neutral_counter += 1
 
     built_level = [anime.title,stress_counter,calm_counter,neutral_counter]
