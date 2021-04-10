@@ -1,4 +1,5 @@
-from mal import Anime
+from mal import *
+import csv
 import concurrent.futures
 import threading
 import multiprocessing
@@ -6,11 +7,22 @@ import time
 
 start = time.perf_counter()
 
-stress_genres = ["Dementia","Horror", "Mystery", "Psychological", "Thriller", "Historical", "Military", "Martial Arts", "Samurai", "Drama", "Police", "Seinen", "Shounen", "Space", "Sci-Fi", "Mecha", "Sports"]
+stress_genres = ["Dementia","Horror", "Mystery", "Psychological", "Thriller", "Historical", "Military", "Martial Arts", "Samurai", "Drama", "Police", "Seinen", "Shounen", "Space", "Sci-Fi", "Mecha", "Sports", "Supernatural"]
 calm_genres = ["Action","Adventure","Comedy", "Ecchi", "Fantasy", "Game", "Harem", "Kids", "Parody", "Slice of Life", "Romance", "Music", "School", "Shoujo", "Shouji Ai", "Shounen Ai", "Yaoi", "Yuri"]
 neutral_genres = ["Magic", "Super Power", "Cars", "Demons", "Josei", "Vampire"]
 
-anime_id = [2251,30,20,28851,9253,14813,2001,37510,2167,4181]
+anime_id_new = []
+anime_id_completed = []
+
+FILENAME = "output.csv"
+with open(FILENAME, newline = "") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        if row[4] == "Plan to Watch":
+            anime_id_new.append(row[5])
+        elif row[4] == "Completed":
+            anime_id_completed.append(row[5])
+
 anime_list = []
 
 def anime_levels(id):
@@ -34,9 +46,17 @@ def anime_levels(id):
     return built_level
 
 def main():
+    choice = input("new or completed? (n/c): ")
+    curr_id = []
+    if choice.lower() == "n":
+        curr_id = anime_id_new
+    else:
+        curr_id = anime_id_completed
+
+
     # Alpha Future Processing
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = [executor.submit(anime_levels,id) for id in anime_id]
+        results = [executor.submit(anime_levels,id) for id in curr_id]
 
         for f in concurrent.futures.as_completed(results):
             anime_list.append(f.result()) 
@@ -65,8 +85,8 @@ def main():
     #     thread.join()
 
     # # Regular shitty way
-    # for id in anime_id:
-    #     anime_levels(id)
+    # for id in curr_id:
+    #     anime_list.append(anime_levels(id))
 
     end = time.perf_counter()
 
