@@ -24,6 +24,40 @@ with open(FILENAME, newline = "") as file:
 
 anime_list = []
 
+# self.title = title
+# self.stress_counter = stress_counter
+# self.calm_counter = calm_counter
+# self.neutral_counter = neutral_counter
+# self.genres = genres
+
+def save_list(anime_list):
+    titles = []
+    stress = []
+    calm = []
+    neutral = []
+    genres = []
+    for anime in anime_list: 
+        titles.append(anime.title)
+        stress.append(anime.stress_counter)
+        calm.append(anime.calm_counter)
+        neutral.append(anime.neutral_counter)
+        genres.append(anime.genres)
+
+    title_series = pd.Series(titles)
+    stress_series = pd.Series(stress)
+    calm_series = pd.Series(calm)
+    neutral_series = pd.Series(neutral)
+    genres_series = pd.Series(genres)
+
+    frame = {"Title":  title_series, "Genres": genres_series, "Stress Level": stress_series, "Calm Level": calm_series, "Neutral Level": neutral_series}
+
+    result = pd.DataFrame(frame)
+
+    result.to_csv("genre_list.csv")
+    return result
+
+
+
 def main():
     xmlinput = input("enter xml file name: ")
     parse_xml(xmlinput)
@@ -71,7 +105,7 @@ def main():
     print(anime_list[0].title, get_links(anime_list[0].title))
     
     genre_specific = []
-    specified_genres = ["Slice of Life","Romance", "Harem"]
+    specified_genres = ["Demons"]
     for show in anime_list:
         if(show.genre_exist(specified_genres)):
             genre_specific.append(show)
@@ -79,6 +113,7 @@ def main():
     for show in genre_specific:
         print(show.title)
     
+    save_list(genre_specific)
 
     print(f'finished in {round(end-start,2)} second(s)')
 
