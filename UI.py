@@ -110,15 +110,24 @@ class Window(Frame):
         length = len(AnimeList)
         half = length // 2
         c = 0
+        Label(self.lowerframe, text="Anime Titles").grid(column=c+1, pady=4, padx=0, sticky = W)
+        
         for i in range(0, half):
             r = i +10
             
             Button(self.lowerframe, text=AnimeList[i]).grid(row=r, column=c+1, pady=4, padx=0, sticky = W)
-            self.lowerframe.grid_columnconfigure(c+1, weight=1)
-        for i in range(half, length):
-            r2 = i - half + 10 
+            self.lowerframe.grid_columnconfigure(c+2, weight=1)
+        Label(self.lowerframe, text="Anime Stress Level").grid(row = 0, column=c+2, pady=4, padx=0, sticky = W)
+        for i in range(0, half):
+            r2= i +10
             
-            Button(self.lowerframe, text=AnimeList[i]).grid(row=r2, column=c+2, pady=4, padx=0, sticky = W)
+            Label(self.lowerframe, text=AnimeList[i]).grid(row=r2, column=c+2, pady=4, padx=0, sticky = W)
+            self.lowerframe.grid_columnconfigure(c+1, weight=1)
+        Label(self.lowerframe, text="Genres").grid(row = 0, column=c+3, pady=4, padx=2, sticky = W)
+        for i in range(0, half):
+            r= i +10
+            
+            Label(self.lowerframe, text=AnimeList[i]).grid(row=r, column=c+3, pady=4, padx=0, sticky = W)
             self.lowerframe.grid_columnconfigure(c+1, weight=1)
     def submit(self, minute, second):
             r=2
