@@ -1,7 +1,6 @@
 # Importing the required libraries
 import xml.etree.ElementTree as Xet
 import pandas as pd
-import unicodedata
 
 
 
@@ -14,7 +13,7 @@ def parse_xml(filename):
     root = xmlparse.getroot()
     for i in root:
         series_title = getattr(i.find('series_title'), 'text', None)
-        print('Found Series Title: ' + series_title)   
+        # print('Found Series Title: ' + series_title)   
         series_episodes = getattr(i.find('series_episodes'), 'text', None)
         print('Found Series Episodes: ' + str(series_episodes))
         my_watched_episodes = getattr(i.find('my_watched_episodes'), 'text', None)
@@ -42,5 +41,3 @@ def parse_xml(filename):
 
     # Writing dataframe to csv
     df.to_csv('output.csv')
-
-parse_xml('animelist_1616559599_-_9334784.xml')
