@@ -47,6 +47,6 @@ def load_file(filename):
     df = pd.read_csv(filename,index_col=0)
     loaded_animes = []
     for row in df.iterrows():
-        obj = Anime_Obj(row["Title"],row["Stress Level"],row["Calm Level"],row["Neutral Level"],row["Genres"])
+        obj = Anime_Obj(row[1]["Title"],row[1]["Stress Level"],row[1]["Calm Level"],row[1]["Neutral Level"],row[1]["Genres"])
         loaded_animes.append(obj)
     return loaded_animes

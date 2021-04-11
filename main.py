@@ -104,7 +104,7 @@ def main():
     print(anime_list[0].title, get_links(anime_list[0].title))
     
     genre_specific = []
-    specified_genres = ["Demons"]
+    specified_genres = ["Demons", "Sci-Fi", "Horror"]
     for show in anime_list:
         if(show.genre_exist(specified_genres)):
             genre_specific.append(show)
