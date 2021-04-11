@@ -112,17 +112,51 @@ def main():
 
     # print(anime_list[0].title, get_links(anime_list[0].title))
     
-    genre_specific = []
-    specified_genres = ["Shounen"]
+    main_genre_list = ["Dementia","Horror", "Mystery", "Psychological", "Thriller", "Historical", "Military", "Martial Arts", "Samurai", "Drama", "Police", "Seinen", "Shounen", "Space", "Sci-Fi", "Mecha", "Sports", "Supernatural","Action","Adventure","Comedy", "Ecchi", "Fantasy", "Game", "Harem", "Kids", "Parody", "Slice of Life", "Romance", "Music", "School", "Shoujo", "Shouji Ai", "Shounen Ai", "Yaoi", "Yuri","Magic", "Super Power", "Cars", "Demons", "Josei", "Vampire"]
+    for i in main_genre_list:
+        print(i,end=" - ")
 
-    genre_specific = genre_finder(anime_list,specified_genres)
-    for show in genre_specific:
-        print(show.title)
+    specified_genres = []
+
+    while True:
+        user_genre = input("\nEnter a Genre (type done when done): ")
+        if user_genre in main_genre_list:
+            specified_genres.append(user_genre)
+        elif user_genre.lower() == "done":
+            break
+        else:
+            print("Not a genre")
+
+    while True:
+        user_level = input("How intense is your work (1-10)?")
+        if user_level.isdigit():
+            user_level = int(user_level)
+            if (user_level > 0 and user_level < 11):
+                break
+        print("Incorrect input") 
     
-    print(genre_specific[0].title, get_links(genre_specific[0].title))
-    save_list(anime_list)
+    genre_specific = []
+    genre_specific = genre_finder(anime_list,specified_genres)
+
+    intensity_level = 10 - user_level
+    lower_bound = intensity_level - 1
+    upper_bound = intensity_level + 1
+    final_list = []
+    for i in genre_specific:
+        show_level = i.ratio()
+        if (show_level >= lower_bound and show_level <= upper_bound):
+            final_list.append(i)
+
+    if len(final_list) == 0:
+        print("No Show Selected - Try other parameters")
+    else:
+        for show in final_list:
+            print(show.title,show.ratio())
+    
+    # print(genre_specific[0].title, get_links(genre_specific[0].title))
+    # save_list(anime_list)
 
 
 if __name__ == "__main__":
-    # main()
+    main()
     
