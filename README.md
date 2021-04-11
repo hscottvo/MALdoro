@@ -1,6 +1,10 @@
 # MALdoro
 
-## 
+## How to use
+
+Using [the MAL list extractor](https://myanimelist.net/panel.php?go=export), log into your MAL account, and put the downloaded XML file into the MALdoro "list" folder. Then run the program and work away!
+
+## Mental Health and Work
 The Pomodoro technique is a time management method developed in the 1980s by Francesco Cirillo. The main premise of the technique is to alternate between working and resting, traditionally in blocks of 25 minutes each. The first thing that comes to mind for many computer science students (at least in the MALdoro team) is watching anime. 
 
 ## The Problem
