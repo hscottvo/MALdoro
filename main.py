@@ -1,4 +1,4 @@
-from anime_comfy_levels import anime_levels
+from anime_comfy_levels import *
 from justwatch_query import get_links
 from classes import *
 from mal import *
@@ -70,6 +70,7 @@ def main():
         curr_id = anime_id_new
     else:
         curr_id = anime_id_completed
+    print("If Create List does not work, check MAL Site")
     choice = input("load anime or create new list? (l/c): ")
     if choice.lower() == "c":
         # mid = int(len(curr_id) / 2)
@@ -105,17 +106,14 @@ def main():
     else:
         anime_list = load_file("saved.csv")
 
-    print(anime_list[0].title, get_links(anime_list[0].title))
-    
-    genre_specific = []
-    specified_genres = ["Fantasy", "Horror", "Magic","Mystery"]
-    for show in anime_list:
-        if(show.genre_exist(specified_genres)):
-            genre_specific.append(show)
-    
+    specified_genres = ["Shounen"]
+
+    genre_specific = genre_finder(anime_list,specified_genres)
+
     for show in genre_specific:
         print(show.title)
     
+    print(genre_specific[0].title, get_links(genre_specific[0].title))
     save_list(anime_list)
 
 
