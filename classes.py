@@ -16,3 +16,11 @@ class Anime_Obj:
             if i in self.genres:
                 return True
         return False
+
+    def ratio(self):
+        return int((self.stress_counter / (self.stress_counter + self.calm_counter)) * 100) / 10.
+
+
+if __name__ == "__main__": 
+    x = Anime_Obj('demon slayer', 2, 1, 0, ['demons', 'history'])
+    print(x.ratio())

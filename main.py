@@ -28,20 +28,23 @@ def save_list(anime_list):
     calm = []
     neutral = []
     genres = []
+    ratio = []
     for anime in anime_list: 
         titles.append(anime.title)
         stress.append(anime.stress_counter)
         calm.append(anime.calm_counter)
         neutral.append(anime.neutral_counter)
         genres.append(anime.genres)
+        ratio.append(anime.ratio())
 
     title_series = pd.Series(titles)
     stress_series = pd.Series(stress)
     calm_series = pd.Series(calm)
     neutral_series = pd.Series(neutral)
     genres_series = pd.Series(genres)
+    ratio_series = pd.Series(ratio)
 
-    frame = {"Title":  title_series, "Genres": genres_series, "Stress Level": stress_series, "Calm Level": calm_series, "Neutral Level": neutral_series}
+    frame = {"Title":  title_series, "Genres": genres_series, "Stress Level": stress_series, "Calm Level": calm_series, "Neutral Level": neutral_series, "Ratio": ratio_series}
 
     result = pd.DataFrame(frame)
 
@@ -106,10 +109,12 @@ def main():
     else:
         anime_list = load_file("saved.csv")
 
+    # print(anime_list[0].title, get_links(anime_list[0].title))
+    
+    genre_specific = []
     specified_genres = ["Shounen"]
 
     genre_specific = genre_finder(anime_list,specified_genres)
-
     for show in genre_specific:
         print(show.title)
     
