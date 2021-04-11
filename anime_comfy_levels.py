@@ -24,9 +24,9 @@ def anime_levels(id, genres = genres_list):
         elif genre in genres.neutral_genres:
             neutral_counter += 1
 
-    built_level = [anime.title,stress_counter,calm_counter,neutral_counter]
+    obj = Anime_Obj(anime.title,stress_counter,calm_counter,neutral_counter,show_genres)
     print("##############")
-    return built_level
+    return obj
 
 def main():
     choice = input("new or completed? (n/c): ")

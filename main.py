@@ -68,7 +68,17 @@ def main():
 
     end = time.perf_counter()
 
-    print(anime_list[0][0], get_links(anime_list[0][0]))
+    print(anime_list[0].title, get_links(anime_list[0].title))
+    
+    genre_specific = []
+    specified_genres = ["Slice of Life","Romance", "Harem"]
+    for show in anime_list:
+        if(show.genre_exist(specified_genres)):
+            genre_specific.append(show)
+    
+    for show in genre_specific:
+        print(show.title)
+    
 
     print(f'finished in {round(end-start,2)} second(s)')
 
