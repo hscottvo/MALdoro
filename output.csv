@@ -1,92 +1,224 @@
 ,series_title,series_episodes,my_watched_episodes,my_status,series_animedb_id,series_type
 0,,,,,,
-1,Akagami no Shirayuki-hime,12,0,Plan to Watch,30123,TV
-2,Angel Beats!,13,0,Plan to Watch,6547,TV
-3,Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.,11,0,Plan to Watch,9989,TV
-4,Bokutachi wa Benkyou ga Dekinai,13,13,Completed,38186,TV
-5,Bokutachi wa Benkyou ga Dekinai!,13,13,Completed,40004,TV
-6,Chuunibyou demo Koi ga Shitai!,12,0,Plan to Watch,14741,TV
-7,Code Geass: Hangyaku no Lelouch,25,25,Completed,1575,TV
-8,Code Geass: Hangyaku no Lelouch R2,25,25,Completed,2904,TV
-9,Dagashi Kashi,12,0,Plan to Watch,31636,TV
-10,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka,13,13,Completed,28121,TV
-11,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria,12,12,Completed,32887,TV
-12,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II,12,12,Completed,37347,TV
-13,Fullmetal Alchemist,51,51,Completed,121,TV
-14,Fullmetal Alchemist: Brotherhood,64,64,Completed,5114,TV
-15,Gakuen Babysitters,12,12,Completed,35222,TV
-16,Gochuumon wa Usagi Desu ka?,12,0,Plan to Watch,21273,TV
-17,Hibike! Euphonium,13,0,Plan to Watch,27989,TV
-18,Hibike! Euphonium 2,13,0,Plan to Watch,31988,TV
-19,Himouto! Umaru-chan,12,12,Completed,28825,TV
-20,Himouto! Umaru-chan R,12,12,Completed,35376,TV
-21,Hitoribocchi no Marumaru Seikatsu,12,12,Completed,37614,TV
-22,Hotaru no Haka,1,1,Completed,578,Movie
-23,Howl no Ugoku Shiro,1,1,Completed,431,Movie
-24,Irozuku Sekai no Ashita kara,13,0,Plan to Watch,37497,TV
-25,Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.,12,12,Completed,38790,TV
-26,Jujutsu Kaisen (TV),24,20,Watching,40748,TV
-27,K-On!,13,13,Completed,5680,TV
-28,K-On!!,26,26,Completed,7791,TV
-29,Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen,12,12,Completed,37999,TV
-30,Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen,12,12,Completed,40591,TV
-31,Kaibutsu Oujo,25,0,Plan to Watch,2130,TV
-32,Kami no Tou,13,13,Completed,40221,TV
-33,Kamisama Hajimemashita,13,0,Plan to Watch,14713,TV
-34,Kanojo to Kanojo no Neko,1,0,Plan to Watch,1004,OVA
-35,Karakai Jouzu no Takagi-san,12,12,Completed,35860,TV
-36,Karakai Jouzu no Takagi-san 2,12,12,Completed,38993,TV
-37,Kekkai Sensen,12,12,Completed,24439,TV
-38,Kekkai Sensen & Beyond,12,12,Completed,34451,TV
-39,Kimetsu no Yaiba,26,26,Completed,38000,TV
-40,Kimi ni Todoke,25,25,Completed,6045,TV
-41,Kimi ni Todoke 2nd Season,12,4,Watching,9656,TV
-42,Kimi no Na wa.,1,1,Completed,32281,Movie
-43,Kobayashi-san Chi no Maid Dragon S,0,0,Plan to Watch,39247,TV
-44,Kokoro Connect,13,0,Plan to Watch,11887,TV
-45,Kono Subarashii Sekai ni Shukufuku wo!,10,10,Completed,30831,TV
-46,Kono Subarashii Sekai ni Shukufuku wo! 2,10,10,Completed,32937,TV
-47,Kono Subarashii Sekai ni Shukufuku wo! 2: Kono Subarashii Geijutsu ni Shukufuku wo!,1,1,Completed,34626,OVA
-48,Kono Subarashii Sekai ni Shukufuku wo!: Kono Subarashii Choker ni Shukufuku wo!,1,1,Completed,32380,OVA
-49,Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu,1,1,Completed,38040,Movie
-50,Kyoukai no Kanata,12,0,Plan to Watch,18153,TV
-51,Made in Abyss,13,13,Completed,34599,TV
-52,Majo no Takkyuubin,1,1,Completed,512,Movie
-53,Mikakunin de Shinkoukei,12,12,Completed,20541,TV
-54,Mimi wo Sumaseba,1,1,Completed,585,Movie
-55,Mobile Suit Gundam Unicorn,7,0,Plan to Watch,6336,OVA
-56,Mushoku Tensei: Isekai Ittara Honki Dasu,11,0,Plan to Watch,39535,TV
-57,Nichijou,26,0,Plan to Watch,10165,TV
-58,Nisekoi,20,3,Watching,18897,TV
-59,One Punch Man,12,12,Completed,30276,TV
-60,Princess Connect! Re:Dive,13,6,Watching,39292,TV
-61,Re:Zero kara Hajimeru Isekai Seikatsu,25,25,Completed,31240,TV
-62,Rokka no Yuusha,12,0,Plan to Watch,28497,TV
-63,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai,13,13,Completed,37450,TV
-64,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Picture Drama,5,5,Completed,38938,Special
-65,Sen to Chihiro no Kamikakushi,1,1,Completed,199,Movie
-66,Senryuu Shoujo,12,12,Completed,38787,TV
-67,Shigatsu wa Kimi no Uso,22,22,Completed,23273,TV
-68,Shikioriori,3,0,Plan to Watch,37396,Movie
-69,Shirobako,24,0,Plan to Watch,25835,TV
-70,Shoujo☆Kageki Revue Starlight,12,0,Plan to Watch,35503,TV
-71,Sora yori mo Tooi Basho,13,0,Plan to Watch,35839,TV
-72,Stranger: Mukou Hadan,1,0,Plan to Watch,2418,Movie
-73,Summer Wars,1,0,Plan to Watch,5681,Movie
-74,Suzumiya Haruhi no Yuuutsu (2009),14,0,Plan to Watch,4382,TV
-75,Tanaka-kun wa Itsumo Kedaruge,12,0,Plan to Watch,32093,TV
-76,Tate no Yuusha no Nariagari,25,25,Completed,35790,TV
-77,Tenkuu no Shiro Laputa,1,1,Completed,513,Movie
-78,To LOVE-Ru,26,0,Plan to Watch,3455,TV
-79,Toaru Kagaku no Accelerator,12,12,Completed,38480,TV
-80,Toaru Kagaku no Railgun,24,24,Completed,6213,TV
-81,Toaru Kagaku no Railgun S,24,24,Completed,16049,TV
-82,Toaru Kagaku no Railgun T,25,25,Completed,38481,TV
-83,Toaru Majutsu no Index,24,24,Completed,4654,TV
-84,Toaru Majutsu no Index II,24,24,Completed,8937,TV
-85,Toaru Majutsu no Index III,26,26,Completed,36432,TV
-86,Tonari no Totoro,1,1,Completed,523,Movie
-87,Tsurune: Kazemai Koukou Kyuudoubu,13,13,Completed,36653,TV
-88,Tsurune: Kazemai Koukou Kyuudoubu - Yabai,1,1,Completed,38921,Special
-89,Zombieland Saga,12,12,Completed,37976,TV
-90,Zombieland Saga: Revenge,0,0,Plan to Watch,40174,TV
+1,Akame ga Kill!,24,24,Completed,22199,TV
+2,Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.,11,11,Completed,9989,TV
+3,Ansatsu Kyoushitsu,22,22,Completed,24833,TV
+4,Ansatsu Kyoushitsu 2,25,25,Completed,30654,TV
+5,BNA,12,4,Watching,40060,ONA
+6,Boku dake ga Inai Machi,12,12,Completed,31043,TV
+7,Boku no Hero Academia,13,13,Completed,31964,TV
+8,Boku no Hero Academia 2,25,25,Completed,33486,TV
+9,Boku no Hero Academia 3,25,11,On-Hold,36456,TV
+10,Bungou Stray Dogs,12,12,Completed,31478,TV
+11,Clannad,23,23,Completed,2167,TV
+12,Clannad: After Story,24,24,Completed,4181,TV
+13,Code Geass: Hangyaku no Lelouch,25,25,Completed,1575,TV
+14,Code Geass: Hangyaku no Lelouch R2,25,25,Completed,2904,TV
+15,Cowboy Bebop,26,26,Completed,1,TV
+16,Danshi Koukousei no Nichijou,12,0,Plan to Watch,11843,TV
+17,Darling in the Franxx,24,24,Completed,35849,TV
+18,Death Note,37,13,Dropped,1535,TV
+19,Death Parade,12,12,Completed,28223,TV
+20,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka,13,0,Plan to Watch,28121,TV
+21,Enen no Shouboutai,24,0,Plan to Watch,38671,TV
+22,Evangelion Shin Movie: Jo,1,1,Completed,2759,MOVIE
+23,Evangelion Shin Movie: Ha,1,1,Completed,3784,MOVIE
+24,Evangelion Shin Movie: Kyuu,1,1,Completed,3785,MOVIE
+25,Fate/stay night: Unlimited Blade Works,13,12,Completed,22297,TV
+26,Fate/stay night: Unlimited Blade Works 2nd Season,13,13,Completed,28701,TV
+27,Flip Flappers,13,0,Plan to Watch,32979,TV
+28,Hagane no Renkinjutsushi,51,51,Completed,121,TV
+29,Hagane no Renkinjutsushi: Fullmetal Alchemist,64,64,Completed,5114,TV
+30,Hagane no Renkinjutsushi: Shamballa wo Yuku Mono,1,1,Completed,430,MOVIE
+31,Given,11,11,Completed,39533,TV
+32,Haikyuu!!,25,25,Completed,20583,TV
+33,Haikyuu!! 2,25,25,Completed,28891,TV
+34,Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou,10,10,Completed,32935,TV
+35,Haikyuu!! TO THE TOP,13,13,Completed,38883,TV
+36,Hataraku Saibou,13,0,Plan to Watch,37141,TV
+37,Hibike! Euphonium,13,13,Completed,27989,TV
+38,Hibike! Euphonium 2,13,13,Completed,31988,TV
+39,Hotaru no Haka,1,1,Completed,578,MOVIE
+40,Howl no Ugoku Shiro,1,1,Completed,431,MOVIE
+41,Initial D Fifth Stage,14,3,On-Hold,15059,TV
+42,Initial D Final Stage,4,0,Plan to Watch,22507,TV
+43,Initial D,26,26,Completed,185,TV
+44,Initial D Fourth Stage,24,24,Completed,18,TV
+45,Initial D Second Stage,13,13,Completed,186,TV
+46,Initial D Third Stage,1,1,Completed,187,MOVIE
+47,JoJo no Kimyou na Bouken,26,3,On-Hold,14719,TV
+48,K-ON!,13,13,Completed,5680,TV
+49,K-ON!!,26,26,Completed,7791,TV
+50,K-ON!: Live House!,1,0,Plan to Watch,6862,OVA
+51,Akame ga Kill!,24,24,Completed,22199,TV
+52,Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.,11,11,Completed,9989,TV
+53,Ansatsu Kyoushitsu,22,22,Completed,24833,TV
+54,Ansatsu Kyoushitsu 2,25,25,Completed,30654,TV
+55,BNA,12,4,Watching,40060,ONA
+56,Boku dake ga Inai Machi,12,12,Completed,31043,TV
+57,Boku no Hero Academia,13,13,Completed,31964,TV
+58,Boku no Hero Academia 2,25,25,Completed,33486,TV
+59,Boku no Hero Academia 3,25,11,On-Hold,36456,TV
+60,Bungou Stray Dogs,12,12,Completed,31478,TV
+61,Clannad,23,23,Completed,2167,TV
+62,Clannad: After Story,24,24,Completed,4181,TV
+63,Code Geass: Hangyaku no Lelouch,25,25,Completed,1575,TV
+64,Code Geass: Hangyaku no Lelouch R2,25,25,Completed,2904,TV
+65,Cowboy Bebop,26,26,Completed,1,TV
+66,Danshi Koukousei no Nichijou,12,0,Plan to Watch,11843,TV
+67,Darling in the Franxx,24,24,Completed,35849,TV
+68,Death Note,37,13,Dropped,1535,TV
+69,Death Parade,12,12,Completed,28223,TV
+70,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka,13,0,Plan to Watch,28121,TV
+71,Enen no Shouboutai,24,0,Plan to Watch,38671,TV
+72,Evangelion Shin Movie: Jo,1,1,Completed,2759,MOVIE
+73,Evangelion Shin Movie: Ha,1,1,Completed,3784,MOVIE
+74,Evangelion Shin Movie: Kyuu,1,1,Completed,3785,MOVIE
+75,Fate/stay night: Unlimited Blade Works,13,12,Completed,22297,TV
+76,Fate/stay night: Unlimited Blade Works 2nd Season,13,13,Completed,28701,TV
+77,Flip Flappers,13,0,Plan to Watch,32979,TV
+78,Hagane no Renkinjutsushi,51,51,Completed,121,TV
+79,Hagane no Renkinjutsushi: Fullmetal Alchemist,64,64,Completed,5114,TV
+80,Hagane no Renkinjutsushi: Shamballa wo Yuku Mono,1,1,Completed,430,MOVIE
+81,Given,11,11,Completed,39533,TV
+82,Haikyuu!!,25,25,Completed,20583,TV
+83,Haikyuu!! 2,25,25,Completed,28891,TV
+84,Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou,10,10,Completed,32935,TV
+85,Haikyuu!! TO THE TOP,13,13,Completed,38883,TV
+86,Hataraku Saibou,13,0,Plan to Watch,37141,TV
+87,Hibike! Euphonium,13,13,Completed,27989,TV
+88,Hibike! Euphonium 2,13,13,Completed,31988,TV
+89,Hotaru no Haka,1,1,Completed,578,MOVIE
+90,Howl no Ugoku Shiro,1,1,Completed,431,MOVIE
+91,Initial D Fifth Stage,14,3,On-Hold,15059,TV
+92,Initial D Final Stage,4,0,Plan to Watch,22507,TV
+93,Initial D,26,26,Completed,185,TV
+94,Initial D Fourth Stage,24,24,Completed,18,TV
+95,Initial D Second Stage,13,13,Completed,186,TV
+96,Initial D Third Stage,1,1,Completed,187,MOVIE
+97,JoJo no Kimyou na Bouken,26,3,On-Hold,14719,TV
+98,K-ON!,13,13,Completed,5680,TV
+99,K-ON!!,26,26,Completed,7791,TV
+100,K-ON!: Live House!,1,0,Plan to Watch,6862,OVA
+101,Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen,12,12,Completed,37999,TV
+102,Kaze Tachinu,1,1,Completed,16662,MOVIE
+103,Kekkai Sensen,12,12,Completed,24439,TV
+104,Kekkai Sensen & BEYOND,12,12,Completed,34451,TV
+105,Kenpuu Denki Berserk,25,0,Plan to Watch,33,TV
+106,Kill la Kill,24,24,Completed,18679,TV
+107,Kimetsu no Yaiba,26,26,Completed,38000,TV
+108,Kimetsu no Yaiba: Mugen Ressha-hen,1,0,Plan to Watch,40456,MOVIE
+109,Kimi no Na wa.,1,1,Completed,32281,MOVIE
+110,Kiseijuu: Sei no Kakuritsu,24,0,Plan to Watch,22535,TV
+111,Koe no Katachi,1,1,Completed,28851,MOVIE
+112,Kono Subarashii Sekai ni Shukufuku wo!,10,10,Completed,30831,TV
+113,Kotonoha no Niwa,1,1,Completed,16782,MOVIE
+114,Made in Abyss,13,13,Completed,34599,TV
+115,Mahou Shoujo Madoka☆Magica Movie: Hajimari no Monogatari,1,1,Completed,11977,MOVIE
+116,Mahou Shoujo Madoka☆Magica Movie: Eien no Monogatari,1,1,Completed,11979,MOVIE
+117,Mahou Shoujo Madoka☆Magica: Hangyaku no Monogatari,1,1,Completed,11981,MOVIE
+118,Majo no Takkyuubin,1,1,Completed,512,MOVIE
+119,Mononoke-hime,1,1,Completed,164,MOVIE
+120,Shin Seiki Evangelion,26,26,Completed,30,TV
+121,Shin Seiki Evangelion Gekijouban: Shi to Shinsei,1,1,Completed,31,MOVIE
+122,Shin Seiki Evangelion: THE END OF EVANGELION,1,1,Completed,32,MOVIE
+123,Nichijou,26,3,On-Hold,10165,TV
+124,No Game No Life,12,12,Completed,19815,TV
+125,Non Non Biyori,12,0,Plan to Watch,17549,TV
+126,One Punch Man,12,12,Completed,30276,TV
+127,Pocket Monsters: The Origin,4,4,Completed,20159,SPECIAL
+128,Re:CREATORS,22,1,Dropped,34561,TV
+129,Re:Zero kara Hajimeru Isekai Seikatsu,25,25,Completed,31240,TV
+130,Sakamichi no Apollon,12,12,Completed,12531,TV
+131,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai,13,13,Completed,37450,TV
+132,Shigatsu wa Kimi no Uso,22,22,Completed,23273,TV
+133,Shigatsu wa Kimi no Uso: Moments,1,1,Completed,28069,OVA
+134,Shingeki no Kyojin,25,25,Completed,16498,TV
+135,Shingeki no Kyojin 2,12,12,Completed,25777,TV
+136,Shokugeki no Souma,24,0,Plan to Watch,28171,TV
+137,Sora yori mo Tooi Basho,13,13,Completed,35839,TV
+138,Steins;Gate,24,2,Watching,9253,TV
+139,Sword Art Online,25,25,Completed,11757,TV
+140,Sword Art Online II,24,24,Completed,21881,TV
+141,Tengen Toppa Gurren Lagann,27,27,Completed,2001,TV
+142,Tenki no Ko,1,1,Completed,38826,MOVIE
+143,Toki wo Kakeru Shoujo,1,1,Completed,2236,MOVIE
+144,Tokyo Ghoul,12,12,Completed,22319,TV
+145,Tokyo Ghoul √A,12,12,Completed,27899,TV
+146,Tonari no Totoro,1,1,Completed,523,MOVIE
+147,Tsurezure Children,12,12,Completed,34902,TV_SHORT
+148,Violet Evergarden,13,13,Completed,33352,TV
+149,Yakusoku no Neverland,12,12,Completed,37779,TV
+150,Yesterday wo Utatte,12,12,Completed,39710,TV
+151,Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e,12,0,Plan to Watch,35507,TV
+152,Yuru Camp△,12,0,Plan to Watch,34798,TV
+153,Zankyou no Terror,11,11,Completed,23283,TV
+154,Sen to Chihiro no Kamikakushi,1,1,Completed,199,MOVIE
+155,Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai,1,1,Completed,38329,MOVIE
+156,Kono Subarashii Sekai ni Shukufuku wo! Kurenai Densetsu,1,0,Plan to Watch,38040,MOVIE
+157,Ookami Kodomo no Ame to Yuki,1,1,Completed,12355,MOVIE
+158,Kobayashi-san Chi no Maidragon,13,0,Plan to Watch,33206,TV
+159,NEW GAME!,12,0,Plan to Watch,31953,TV
+160,Hunter x Hunter (2011),148,148,Completed,11061,TV
+161,Suzumiya Haruhi no Yuuutsu,14,0,Plan to Watch,849,TV
+162,Kono Subarashii Sekai ni Shukufuku wo! 2,10,6,Watching,32937,TV
+163,Chuunibyou demo Koi ga Shitai!,12,12,Completed,14741,TV
+164,Yuri!!! on Ice,12,1,Watching,32995,TV
+165,Koutetsujou no Kabaneri,12,0,Dropped,28623,TV
+166,K-ON! Movie,1,1,Completed,9617,MOVIE
+167,Tamako Market,12,0,Plan to Watch,16417,TV
+168,Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen,12,12,Completed,40591,TV
+169,Kami no Tou: Tower of God,13,0,Plan to Watch,40221,TV
+170,Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season,13,13,Completed,39587,TV
+171,Bungou Stray Dogs 2,12,12,Completed,32867,TV
+172,Hibike! Euphonium: Chikai no Finale,1,1,Completed,35678,MOVIE
+173,Chuunibyou demo Koi ga Shitai! Ren,12,12,Completed,18671,TV
+174,Mob Psycho 100,12,12,Completed,32182,TV
+175,Mob Psycho 100 II,13,13,Completed,37510,TV
+176,Chuunibyou demo Koi ga Shitai! Ren: Saisei no... Jaou Shingan Mokushiroku,1,1,Completed,27601,OVA
+177,Chuunibyou demo Koi ga Shitai!: Kirameki no… Slapstick Noel,1,1,Completed,16934,OVA
+178,Chuunibyou demo Koi ga Shitai!: Take on Me,1,1,Completed,35608,MOVIE
+179,Liz to Aoi Tori,1,0,Plan to Watch,35677,MOVIE
+180,Bungou Stray Dogs: DEAD APPLE,1,1,Completed,34944,MOVIE
+181,Bungou Stray Dogs 3,12,12,Completed,38003,TV
+182,Perfect Blue,1,0,Plan to Watch,437,MOVIE
+183,Toradora!,25,25,Completed,4224,TV
+184,3-gatsu no Lion 2,22,0,Plan to Watch,35180,TV
+185,Bakemonogatari,15,1,Watching,5081,TV
+186,Angel Beats!,13,0,Plan to Watch,6547,TV
+187,Cowboy Bebop: Tengoku no Tobira,1,1,Completed,5,MOVIE
+188,Boku no Hero Academia the Movie: Futari no Hero,1,1,Completed,36896,MOVIE
+189,Boku no Hero Academia the Movie: Heroes:Rising,1,1,Completed,39565,MOVIE
+190,Kimi no Suizou wo Tabetai,1,1,Completed,36098,MOVIE
+191,Dr. STONE,24,0,Plan to Watch,38691,TV
+192,Byousoku 5 Centimeter,3,0,Plan to Watch,1689,MOVIE
+193,Summer Wars,1,0,Plan to Watch,5681,MOVIE
+194,3-gatsu no Lion,22,0,Plan to Watch,31646,TV
+195,Senryuu Shoujo,12,0,Plan to Watch,38787,TV_SHORT
+196,Kyoukai no Kanata,12,0,Plan to Watch,18153,TV
+197,BANANA FISH,24,3,Watching,36649,TV
+198,"Kanojo, Okarishimasu",12,12,Completed,40839,TV
+199,Kakegurui,12,1,Dropped,34933,TV
+200,Saiki Kusuo no Ψ-nan,120,2,Watching,33255,TV_SHORT
+201,Haikyuu!! TO THE TOP 2,12,12,Completed,40776,TV
+202,Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3,0,0,Plan to Watch,43608,TV
+203,Jujutsu Kaisen,24,24,Completed,40748,TV
+204,Shingeki no Kyojin: The Final Season,16,16,Completed,40028,TV
+205,Yakusoku no Neverland 2,11,0,Plan to Watch,39617,TV
+206,Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2,12,12,Completed,42203,TV
+207,SK∞,12,1,Dropped,42923,TV
+208,Eizouken ni wa Te wo Dasu na!,12,0,Plan to Watch,39792,TV
+209,Wonder Egg Priority,12,0,Plan to Watch,43299,TV
+210,Hyouka,22,0,Plan to Watch,12189,TV
+211,Kimetsu no Yaiba: Yuukaku-hen,0,0,Plan to Watch,47778,TV
+212,Horimiya,13,13,Completed,42897,TV
+213,Shin Evangelion Movie:||,1,0,Plan to Watch,3786,MOVIE
+214,Promare,1,0,Plan to Watch,35848,MOVIE
+215,Shingeki no Kyojin 3 Part 2,10,0,Plan to Watch,38524,TV
+216,Shingeki no Kyojin 3,12,0,Plan to Watch,35760,TV
+217,Joshiraku,13,0,Plan to Watch,12679,TV
+218,Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen,14,0,Plan to Watch,39468,TV
+219,Mushoku Tensei: Isekai Ittara Honki Dasu,11,0,Plan to Watch,39535,TV
+220,Jujutsu Kaisen 0,1,0,Plan to Watch,48561,MOVIE
+221,Shingeki no Kyojin: The Final Season Part 2,0,0,Plan to Watch,48583,TV
+222,Boku no Hero Academia 5,25,2,Watching,41587,TV
