@@ -3,6 +3,7 @@ from justwatch_query import get_links
 from classes import *
 from mal import *
 from converter import *
+from video import *
 import csv
 import concurrent.futures
 import threading
