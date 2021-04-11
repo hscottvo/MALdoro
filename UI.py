@@ -32,6 +32,7 @@
 
 from tkinter import *
 from tkinter.ttk import Combobox, Separator
+from tkinter import messagebox
 import time
 #Creating tkinter window
 
@@ -41,19 +42,23 @@ class Window(Frame):
         Frame.__init__(self, master)
         # create master window
         self.master = master
-
+        
         # create root window on initialization
         self.create_rootwindow()
 
+        
     def create_rootwindow(self):
-        self.master.geometry('750x350')
+        self.master.geometry('650x270')
         self.master.title('MALdoro')
         
         self.create_upperframe()
         self.create_lowerframe()
-        self.create_buttonentries()
-        self.update_clock()
-        self.upperframe.pack(side="top", fill="both", expand=True, padx=4)
+        self.create_upperentries()
+        self.create_lowerentries()
+        #minute, second = self.create_lowerentries()
+        #self.update_clock()
+        #self.submit(minute, second)
+        self.upperframe.pack(side="right", fill="both", expand=False, padx=4)
         self.lowerframe.pack(side="left", fill="both", expand=True, padx=4, pady=4)
         
         
@@ -68,9 +73,9 @@ class Window(Frame):
     def create_lowerframe(self):
         self.lowerframe = Frame(self.master, width=830, height=200)
         self.lowerframe.config(background="#a3a4ad")
-    def create_buttonentries(self):
+    def create_upperentries(self):
         self.create_upperframe()
-        GenreList=["Ecchi","Harem","Action","Adventure","Mystery","Romance","Fantasy","Psychological","School","Shounen","Magic","Slice of Life",]
+        GenreList=["H","Harem","Action","Adventure","Mystery","Romance","Fantasy","Psychological","School","Shounen","Magic","Slice of Life",]
         length = len(GenreList)
         half = length // 2
         c = 6
@@ -98,36 +103,96 @@ class Window(Frame):
         ################## submit button        
         Submit = Button(self.upperframe, text="Submit")
         Submit.grid(column = c+6, row = r+20, sticky = E)
-    def update_clock(self):
-        c=1
-        r=2
+   
+    def create_lowerentries(self):
         self.create_lowerframe()
-        now = time.strftime("%H:%M:%S")
-
-        Label(self.lowerframe,text = now).grid(row=r, column=c+5, pady=4, padx=0)
-        self.lowerframe.grid_rowconfigure(2)
-        self.master.after(10, self.update_clock)
-    # def countdown(self):
-    #     self.create_lowerframe()
-    #     t=10 #1500 is 25 minutes
-    #     r = 2
-    #     c = 6
-    #     while t:
-    #         mins, secs = divmod(t, 60)
+        AnimeList=["H","Harem","Action","Adventure","Mystery","Romance","Fantasy","Psychological","School","Shounen","Magic","Slice of Life",]
+        length = len(AnimeList)
+        half = length // 2
+        c = 0
+        for i in range(0, half):
+            r = i +10
             
-    #         timer = '{:02d}:{:02d}'.format(mins, secs)
-    #         Label(self.lowerframe, text=timer,font = ("Times New Roman", 10)).grid(row=r, column=c+5, pady=4, padx=0, sticky = S)
+            Button(self.lowerframe, text=AnimeList[i]).grid(row=r, column=c+1, pady=4, padx=0, sticky = W)
+            self.lowerframe.grid_columnconfigure(c+1, weight=1)
+        for i in range(half, length):
+            r2 = i - half + 10 
             
-    #         time.sleep(1)
-    #         t -= 1
-    #     print('Fire in the hole!!')
+            Button(self.lowerframe, text=AnimeList[i]).grid(row=r2, column=c+2, pady=4, padx=0, sticky = W)
+            self.lowerframe.grid_columnconfigure(c+1, weight=1)
+    def submit(self, minute, second):
+            r=2
+            c=2
+            self.create_lowerframe()
+            #temp = int(minute.get()) * 60 + int(second.get())
+            try:
+                # the input provided by the user is
+                # stored in here :temp
+                temp =  int(minute.get())*60 + int(second.get())
+            except:
+                print("Please input the right value")
+            while temp >-1:
+                
+                # divmod(firstvalue = temp//60, secondvalue = temp%60)
+                mins,secs = divmod(temp,60)
+        
+                # Converting the input entered in mins or secs to hours,
+                # mins ,secs(input = 110 min --> 120*60 = 6600 => 1hr :
+                # 50min: 0sec)
+               
+                
+                
+                # using format () method to store the value up to
+                # two decimal places
+                
+                minute.set("{0:2d}".format(mins))
+                second.set("{0:2d}".format(secs))
+        
+                # updating the GUI window after decrementing the
+                # temp value every time
+                self.update()
+                time.sleep(1)
+        
+                # when temp value = 0; then a messagebox pop's up
+                # with a message:"Time's up"
+                if (temp == 0):
+                    messagebox.showinfo("Time Countdown", "Time's up ")
+                
+                # after every one sec the value of temp will be decremented
+                # by one
+                temp -= 1       
+    
+def main():
 
+    window = Tk()
+    app = Window(window)
+    window.mainloop()
+main()
 
-window = Tk()
-app = Window(window)
+    #         btn = Button(self.lowerframe, text='Set Time Countdown', bd='5')
+    #         btn.grid(column = c+3, row = r+1)
 
-window.mainloop()
+# self.create_lowerframe()
+#         c=2
+#         r=2
+#         # Declaration of variables
 
+#         minute=StringVar()
+#         second=StringVar()
+
+#         # setting the default value as 0
+#         minute.set("00")
+#         second.set("03")
+#         # Use of Entry class to take input from the user
+#         minuteEntry= Entry(self.lowerframe, width=3, font=("Arial",18,""), textvariable=minute)
+#         minuteEntry.grid(column = c, row = r)
+
+#         secondEntry= Entry(self.lowerframe, width=3, font=("Arial",18,""), textvariable=second)
+#         secondEntry.grid(column = c+1, row = r)
+#         btn = Button(self.lowerframe, text='Set Time Countdown', bd='5')
+#         btn.grid(column = c+3, row = r)
+#         self.lowerframe.grid_columnconfigure(1, weight=1)
+#         return minute, second
 ####################  Labels
 # lbl=Label(window, text="Genres", fg='black', font=("Times New Roman", 12))
 # lbl.place(x=450, y=100)
@@ -150,3 +215,26 @@ window.mainloop()
 
 
 
+    # def update_clock(self):
+    #     c=1
+    #     r=2
+    #     self.create_lowerframe()
+    #     now = time.strftime("%H:%M:%S")
+
+    #     Label(self.lowerframe,text = now).grid(row=r, column=c+5, pady=4, padx=0)
+    #     self.lowerframe.grid_rowconfigure(2)
+    #     self.master.after(10, self.update_clock)
+    # def countdown(self):
+    #     self.create_lowerframe()
+    #     t=10 #1500 is 25 minutes
+    #     r = 2
+    #     c = 6
+    #     while t:
+    #         mins, secs = divmod(t, 60)
+            
+    #         timer = '{:02d}:{:02d}'.format(mins, secs)
+    #         Label(self.lowerframe, text=timer,font = ("Times New Roman", 10)).grid(row=r, column=c+5, pady=4, padx=0, sticky = S)
+            
+    #         time.sleep(1)
+    #         t -= 1
+    #     print('Fire in the hole!!')
