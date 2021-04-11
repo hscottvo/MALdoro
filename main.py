@@ -2,6 +2,7 @@ from anime_comfy_levels import anime_levels
 from justwatch_query import get_links
 from classes import *
 from mal import *
+from converter import *
 import csv
 import concurrent.futures
 import threading
@@ -9,6 +10,8 @@ import multiprocessing
 import time
 
 genres_list = Genres()
+
+
 
 start = time.perf_counter()
 
@@ -28,6 +31,8 @@ with open(FILENAME, newline = "") as file:
 anime_list = []
 
 def main():
+    xmlinput = input("enter xml file name: ")
+    parse_xml(xmlinput)
     choice = input("new or completed? (n/c): ")
     curr_id = []
     if choice.lower() == "n":
@@ -45,7 +50,7 @@ def main():
 
     end = time.perf_counter()
 
-    # print(anime_list[0][0],get_links(anime_list[0][0]))
+    print(anime_list[0][0], get_links(anime_list[0][0]))
 
     print(f'finished in {round(end-start,2)} second(s)')
 
