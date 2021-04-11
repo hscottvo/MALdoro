@@ -10,12 +10,6 @@ import multiprocessing
 import time
 
 genres_list = Genres()
-
-
-
-start = time.perf_counter()
-
-
 anime_id_new = []
 anime_id_completed = []
 
@@ -39,14 +33,38 @@ def main():
         curr_id = anime_id_new
     else:
         curr_id = anime_id_completed
+    mid = int(len(curr_id) / 2)
+    left = int(mid/2)
+    right = int(mid + left)
+
+    process1 = curr_id[:left]
+    process2 = curr_id[left:mid]
+    process3 = curr_id[mid:right]
+    process4 = curr_id[right:]
 
 
+    start = time.perf_counter()
     # Alpha Future Processing
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = [executor.submit(anime_levels,id, genres_list) for id in curr_id]
-
-        for f in concurrent.futures.as_completed(results):
-            anime_list.append(f.result()) 
+        results = executor.map(anime_levels,process1)
+        for result in results:
+            anime_list.append(result)
+    print("Process 1 complete")
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        results = executor.map(anime_levels,process2)
+        for result in results:
+            anime_list.append(result)
+    print("Process 2 complete")
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        results = executor.map(anime_levels,process3)
+        for result in results:
+            anime_list.append(result)
+    print("Process 3 complete")
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        results = executor.map(anime_levels,process4)
+        for result in results:
+            anime_list.append(result)
+    print("Process 4 complete")
 
     end = time.perf_counter()
 

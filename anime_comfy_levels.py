@@ -1,15 +1,16 @@
 from mal import *
+from classes import *
 import csv
 import concurrent.futures
 import threading
 import multiprocessing
 import time
 
+genres_list = Genres()
 
-def anime_levels(id, genres):
+def anime_levels(id, genres = genres_list):
     anime = Anime(id)
     show_genres = anime.genres
-
 
     stress_counter = 0
     calm_counter = 0
@@ -24,6 +25,7 @@ def anime_levels(id, genres):
             neutral_counter += 1
 
     built_level = [anime.title,stress_counter,calm_counter,neutral_counter]
+    print("##############")
     return built_level
 
 def main():
