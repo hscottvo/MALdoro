@@ -6,9 +6,6 @@ from converter import *
 from video import *
 import csv
 import concurrent.futures
-import threading
-import multiprocessing
-import time
 from UI import Window
 from tkinter import *
 from tkinter.ttk import Combobox, Separator
