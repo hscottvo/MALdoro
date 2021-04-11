@@ -44,7 +44,14 @@ def main():
         for f in concurrent.futures.as_completed(results):
             anime_list.append(f.result()) 
 
+def genre_finder(anime_list,specified_genres):
+    genre_specific = []
 
+    for show in anime_list:
+        if(show.genre_exist(specified_genres)):
+            genre_specific.append(show)
+    
+    return genre_specific
     
     # # Chad processing
     # processes = []

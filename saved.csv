@@ -1,58 +1,30 @@
 ,Title,Genres,Stress Level,Calm Level,Neutral Level
-0,Bokutachi wa Benkyou ga Dekinai,"['Harem', 'Comedy', 'Romance', 'School', 'Shounen']",1,4,0
-1,Bokutachi wa Benkyou ga Dekinai!,"['Harem', 'Comedy', 'Romance', 'School', 'Shounen']",1,4,0
-2,Code Geass: Hangyaku no Lelouch,"['Action', 'Military', 'Sci-Fi', 'Super Power', 'Drama', 'Mecha', 'School']",4,2,1
-3,Code Geass: Hangyaku no Lelouch R2,"['Action', 'Military', 'Sci-Fi', 'Super Power', 'Drama', 'Mecha']",4,1,1
-4,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka,"['Action', 'Adventure', 'Comedy', 'Romance', 'Fantasy']",0,5,0
-5,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria,"['Action', 'Adventure', 'Fantasy']",0,3,0
-6,Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II,"['Action', 'Adventure', 'Comedy', 'Romance', 'Fantasy']",0,5,0
-7,Fullmetal Alchemist,"['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Magic', 'Military', 'Shounen']",3,4,1
-8,Fullmetal Alchemist: Brotherhood,"['Action', 'Military', 'Adventure', 'Comedy', 'Drama', 'Magic', 'Fantasy', 'Shounen']",3,4,1
-9,Gakuen Babysitters,"['Comedy', 'School', 'Shoujo', 'Slice of Life']",0,4,0
-10,Himouto! Umaru-chan,"['Comedy', 'School', 'Seinen', 'Slice of Life']",1,3,0
-11,Himouto! Umaru-chan R,"['Comedy', 'School', 'Seinen', 'Slice of Life']",1,3,0
-12,Hitoribocchi no Marumaru Seikatsu,"['Comedy', 'School', 'Shounen', 'Slice of Life']",1,3,0
-13,Hotaru no Haka,"['Drama', 'Historical']",2,0,0
-14,Howl no Ugoku Shiro,"['Adventure', 'Drama', 'Fantasy', 'Romance']",1,3,0
-15,Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.,"['Action', 'Game', 'Sci-Fi', 'Adventure', 'Comedy', 'Fantasy']",1,5,0
-16,K-On!,"['Music', 'Slice of Life', 'Comedy', 'School']",0,4,0
-17,K-On!!,"['Comedy', 'Music', 'School', 'Slice of Life']",0,4,0
-18,Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen,"['Comedy', 'Psychological', 'Romance', 'School', 'Seinen']",2,3,0
-19,Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen,"['Comedy', 'Psychological', 'Romance', 'School', 'Seinen']",2,3,0
-20,Kami no Tou,"['Action', 'Adventure', 'Mystery', 'Drama', 'Fantasy']",2,3,0
-21,Karakai Jouzu no Takagi-san,"['Slice of Life', 'Comedy', 'Romance', 'School', 'Shounen']",1,4,0
-22,Karakai Jouzu no Takagi-san 2,"['Slice of Life', 'Comedy', 'Romance', 'School', 'Shounen']",1,4,0
-23,Kekkai Sensen,"['Action', 'Comedy', 'Super Power', 'Supernatural', 'Vampire', 'Fantasy', 'Shounen']",2,3,2
-24,Kekkai Sensen & Beyond,"['Action', 'Comedy', 'Fantasy', 'Shounen', 'Super Power', 'Supernatural', 'Vampire']",2,3,2
-25,Kimetsu no Yaiba,"['Action', 'Demons', 'Historical', 'Shounen', 'Supernatural']",3,1,1
-26,Kimi ni Todoke,"['Slice of Life', 'Drama', 'Romance', 'School', 'Shoujo']",1,4,0
-27,Kimi no Na wa.,"['Romance', 'Supernatural', 'School', 'Drama']",2,2,0
-28,Kono Subarashii Sekai ni Shukufuku wo!,"['Adventure', 'Comedy', 'Fantasy', 'Magic', 'Parody', 'Supernatural']",1,4,1
-29,Kono Subarashii Sekai ni Shukufuku wo! 2,"['Adventure', 'Comedy', 'Parody', 'Supernatural', 'Magic', 'Fantasy']",1,4,1
-30,Kono Subarashii Sekai ni Shukufuku wo! 2: Kono Subarashii Geijutsu ni Shukufuku wo!,"['Magic', 'Adventure', 'Fantasy', 'Comedy', 'Supernatural']",1,3,1
-31,Kono Subarashii Sekai ni Shukufuku wo!: Kono Subarashii Choker ni Shukufuku wo!,"['Adventure', 'Comedy', 'Supernatural', 'Magic', 'Fantasy']",1,3,1
-32,Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu,"['Adventure', 'Comedy', 'Fantasy', 'Magic', 'Parody', 'Supernatural']",1,4,1
-33,Made in Abyss,"['Sci-Fi', 'Adventure', 'Mystery', 'Drama', 'Fantasy']",3,2,0
-34,Majo no Takkyuubin,"['Adventure', 'Comedy', 'Drama', 'Magic', 'Romance', 'Fantasy']",1,4,1
-35,Mikakunin de Shinkoukei,"['Slice of Life', 'Comedy', 'Romance', 'School']",0,4,0
-36,Mimi wo Sumaseba,"['Slice of Life', 'Drama', 'Romance', 'Shoujo']",1,3,0
-37,One Punch Man,"['Action', 'Sci-Fi', 'Comedy', 'Parody', 'Super Power', 'Supernatural']",2,3,1
-38,Re:Zero kara Hajimeru Isekai Seikatsu,"['Psychological', 'Drama', 'Thriller', 'Fantasy']",3,1,0
-39,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai,"['Comedy', 'Supernatural', 'Drama', 'Romance', 'School']",2,3,0
-40,Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Picture Drama,"['Comedy', 'Romance']",0,2,0
-41,Sen to Chihiro no Kamikakushi,"['Adventure', 'Supernatural', 'Drama']",2,1,0
-42,Senryuu Shoujo,"['Slice of Life', 'Comedy', 'School', 'Shounen']",1,3,0
-43,Shigatsu wa Kimi no Uso,"['Drama', 'Music', 'Romance', 'School', 'Shounen']",2,3,0
-44,Tate no Yuusha no Nariagari,"['Action', 'Adventure', 'Drama', 'Fantasy']",1,3,0
-45,Tenkuu no Shiro Laputa,"['Adventure', 'Fantasy', 'Romance', 'Sci-Fi']",1,3,0
-46,Toaru Kagaku no Accelerator,"['Super Power', 'Supernatural', 'Fantasy', 'School']",1,2,1
-47,Toaru Kagaku no Railgun,"['Action', 'Sci-Fi', 'Super Power']",1,1,1
-48,Toaru Kagaku no Railgun S,"['Action', 'Sci-Fi', 'Super Power']",1,1,1
-49,Toaru Kagaku no Railgun T,"['Action', 'Sci-Fi', 'Super Power']",1,1,1
-50,Toaru Majutsu no Index,"['Action', 'Magic', 'Sci-Fi', 'Super Power']",1,1,2
-51,Toaru Majutsu no Index II,"['Action', 'Magic', 'Sci-Fi', 'Super Power']",1,1,2
-52,Toaru Majutsu no Index III,"['Action', 'Sci-Fi', 'Super Power', 'Magic']",1,1,2
-53,Tonari no Totoro,"['Adventure', 'Comedy', 'Supernatural']",1,2,0
-54,Tsurune: Kazemai Koukou Kyuudoubu,"['Sports', 'Drama', 'School']",2,1,0
-55,Tsurune: Kazemai Koukou Kyuudoubu - Yabai,"['Sports', 'Drama', 'School']",2,1,0
-56,Zombieland Saga,"['Comedy', 'Music', 'Supernatural']",1,2,0
+0,Akagami no Shirayuki-hime,"['Fantasy', 'Romance', 'Drama', 'Shoujo']",1,3,0
+1,Angel Beats!,"['Action', 'Comedy', 'Drama', 'School', 'Supernatural']",2,3,0
+2,Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.,"['Slice of Life', 'Supernatural', 'Drama']",2,1,0
+3,Chuunibyou demo Koi ga Shitai!,"['Slice of Life', 'Comedy', 'Drama', 'Romance', 'School']",1,4,0
+4,Dagashi Kashi,"['Comedy', 'Shounen', 'Slice of Life']",1,2,0
+5,Gochuumon wa Usagi Desu ka?,"['Slice of Life', 'Comedy']",0,2,0
+6,Hibike! Euphonium,"['Music', 'School', 'Drama']",1,2,0
+7,Hibike! Euphonium 2,"['Music', 'Drama', 'School']",1,2,0
+8,Irozuku Sekai no Ashita kara,"['Drama', 'Magic', 'Romance', 'School']",1,2,1
+9,Kaibutsu Oujo,"['Action', 'Comedy', 'Supernatural', 'Horror', 'Vampire', 'Shounen']",3,2,1
+10,Kamisama Hajimemashita,"['Comedy', 'Demons', 'Supernatural', 'Romance', 'Fantasy', 'Shoujo']",1,4,1
+11,Kanojo to Kanojo no Neko,"['Drama', 'Psychological', 'Romance', 'Slice of Life']",2,2,0
+12,Kobayashi-san Chi no Maid Dragon S,"['Slice of Life', 'Comedy', 'Fantasy']",0,3,0
+13,Kokoro Connect,"['Slice of Life', 'Comedy', 'Supernatural', 'Drama', 'Romance', 'School']",2,4,0
+14,Kyoukai no Kanata,"['Slice of Life', 'Supernatural', 'Fantasy']",1,2,0
+15,Mobile Suit Gundam Unicorn,"['Action', 'Drama', 'Mecha', 'Military', 'Sci-Fi', 'Space']",5,1,0
+16,Mushoku Tensei: Isekai Ittara Honki Dasu,"['Drama', 'Magic', 'Ecchi', 'Fantasy']",1,2,1
+17,Nichijou,"['Slice of Life', 'Comedy', 'School', 'Shounen']",1,3,0
+18,Rokka no Yuusha,"['Action', 'Adventure', 'Fantasy', 'Magic', 'Mystery']",1,3,1
+19,Shikioriori,"['Drama', 'Romance', 'Slice of Life']",1,2,0
+20,Shirobako,"['Comedy', 'Drama']",1,1,0
+21,Shoujo☆Kageki Revue Starlight,"['Music', 'School']",0,2,0
+22,Sora yori mo Tooi Basho,"['Adventure', 'Comedy', 'Drama']",1,2,0
+23,Stranger: Mukou Hadan,"['Action', 'Adventure', 'Historical', 'Samurai']",2,2,0
+24,Summer Wars,"['Sci-Fi', 'Comedy']",1,1,0
+25,Suzumiya Haruhi no Yuuutsu (2009),"['Comedy', 'Mystery', 'Parody', 'Romance', 'School', 'Sci-Fi', 'Slice of Life']",2,5,0
+26,Tanaka-kun wa Itsumo Kedaruge,"['Slice of Life', 'Comedy', 'School']",0,3,0
+27,To LOVE-Ru,"['Sci-Fi', 'Harem', 'Comedy', 'Romance', 'Ecchi', 'School', 'Shounen']",2,5,0
+28,Zombieland Saga: Revenge,"['Music', 'Comedy', 'Supernatural']",1,2,0
