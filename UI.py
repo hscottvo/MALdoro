@@ -7,11 +7,13 @@ from video import *
 from justwatch_query import * 
 from anime_comfy_levels import genre_finder, anime_levels
 #Creating tkinter window
-intensitylevel = 1
+# intensitylevel = 1
+
+
 def anime_click(title):
     open_link(get_links(title))
-def print_intensity():
-    print(intensitylevel)
+def print_intensity(bruh):
+    print(bruh)
 class Window(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -20,6 +22,7 @@ class Window(Frame):
         
         # create root window on initialization
         self.create_rootwindow()
+        
 
         
     def create_rootwindow(self):
@@ -35,6 +38,8 @@ class Window(Frame):
         #self.submit(minute, second)
         self.upperframe.pack(side="right", fill="both", expand=False, padx=4)
         self.lowerframe.pack(side="left", fill="both", expand=True, padx=4, pady=4)
+        self.IntensityLvl = Combobox(self.upperframe, width = 27, textvariable = n, state= "readonly")
+        self.IntensityLvl['values'] = ('1', '2','3','4','5','6','7','8','9','10')
         
         
         #self.countdown()
@@ -70,13 +75,14 @@ class Window(Frame):
         Label(self.upperframe, text="Intensity level : ",font = ("Times New Roman", 10)).grid(row=r, column=c+5, pady=4, padx=0, sticky = S)
         self.upperframe.grid_columnconfigure(c+1, weight=1)
         n = StringVar()
-        IntensityLvl = Combobox(self.upperframe, width = 27, textvariable = n, state= "readonly")
-        IntensityLvl['values'] = ('1', '2','3','4','5','6','7','8','9','10')
-        IntensityLvl.grid(column = c+6, row = r)
-        intensitylevel = IntensityLvl.get()
+        # IntensityLvl = Combobox(self.upperframe, width = 27, textvariable = n, state= "readonly")
+        # IntensityLvl['values'] = ('1', '2','3','4','5','6','7','8','9','10')
+        self.IntensityLvl.grid(column = c+6, row = r)
+        # intensitylevel = IntensityLvl.get()
+        print(IntensityLvl.get())
         self.upperframe.grid_columnconfigure(c+1, weight=1)        
         ################## submit button        
-        Submit = Button(self.upperframe, text="Submit", command = print_intensity)
+        Submit = Button(self.upperframe, text="Submit", command =self.print_string)
         Submit.grid(column = c+6, row = r+20, sticky = E)
     
     def create_lowerentries(self):
@@ -144,7 +150,11 @@ class Window(Frame):
                 
                 # after every one sec the value of temp will be decremented
                 # by one
-                temp -= 1       
+                temp -= 1      
+    def print_string():
+        print('bruh')
+        if IntensityLvl.get() == '1': 
+            print(1)
 
     
 def main():
