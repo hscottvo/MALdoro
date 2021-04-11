@@ -9,6 +9,7 @@ import concurrent.futures
 import threading
 import multiprocessing
 import time
+import UI
 
 genres_list = Genres()
 anime_id_new = []
@@ -123,4 +124,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    
