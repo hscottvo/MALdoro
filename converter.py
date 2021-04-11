@@ -1,6 +1,7 @@
 # Importing the required libraries
 import xml.etree.ElementTree as Xet
 import pandas as pd
+from classes import *
 
 
 
@@ -41,3 +42,11 @@ def parse_xml(filename):
 
     # Writing dataframe to csv
     df.to_csv('output.csv')
+
+def load_file(filename):
+    df = pd.read_csv(filename,index_col=0)
+    loaded_animes = []
+    for row in df.iterrows():
+        obj = Anime_Obj(row["Title"],row["Stress Level"],row["Calm Level"],row["Neutral Level"],row["Genres"])
+        loaded_animes.append(obj)
+    return loaded_animes

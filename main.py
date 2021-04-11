@@ -22,8 +22,6 @@ with open(FILENAME, newline = "") as file:
         elif row[4] == "Completed":
             anime_id_completed.append(row[5])
 
-anime_list = []
-
 # self.title = title
 # self.stress_counter = stress_counter
 # self.calm_counter = calm_counter
@@ -53,54 +51,55 @@ def save_list(anime_list):
 
     result = pd.DataFrame(frame)
 
-    result.to_csv("genre_list.csv")
+    result.to_csv("saved.csv")
     return result
 
 
 
 def main():
-    xmlinput = input("enter xml file name: ")
+    anime_list = []
+    xmlinput = input("enter xml file name: ") # button input
     parse_xml(xmlinput)
-    choice = input("new or completed? (n/c): ")
+    choice = input("new or completed? (n/c): ") # button input
     curr_id = []
     if choice.lower() == "n":
         curr_id = anime_id_new
     else:
         curr_id = anime_id_completed
-    mid = int(len(curr_id) / 2)
-    left = int(mid/2)
-    right = int(mid + left)
+    choice = input("load anime or create new list? (l/c): ")
+    if choice.lower() == "c":
+        mid = int(len(curr_id) / 2)
+        left = int(mid/2)
+        right = int(mid + left)
 
-    process1 = curr_id[:left]
-    process2 = curr_id[left:mid]
-    process3 = curr_id[mid:right]
-    process4 = curr_id[right:]
-
-
-    start = time.perf_counter()
-    # Alpha Future Processing
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = executor.map(anime_levels,process1)
-        for result in results:
-            anime_list.append(result)
-    print("Process 1 complete")
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = executor.map(anime_levels,process2)
-        for result in results:
-            anime_list.append(result)
-    print("Process 2 complete")
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = executor.map(anime_levels,process3)
-        for result in results:
-            anime_list.append(result)
-    print("Process 3 complete")
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = executor.map(anime_levels,process4)
-        for result in results:
-            anime_list.append(result)
-    print("Process 4 complete")
-
-    end = time.perf_counter()
+        process1 = curr_id[:left]
+        process2 = curr_id[left:mid]
+        process3 = curr_id[mid:right]
+        process4 = curr_id[right:]
+        
+        # Alpha Future Processing
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            results = executor.map(anime_levels,process1)
+            for result in results:
+                anime_list.append(result)
+        print("Process 1 complete")
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            results = executor.map(anime_levels,process2)
+            for result in results:
+                anime_list.append(result)
+        print("Process 2 complete")
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            results = executor.map(anime_levels,process3)
+            for result in results:
+                anime_list.append(result)
+        print("Process 3 complete")
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            results = executor.map(anime_levels,process4)
+            for result in results:
+                anime_list.append(result)
+        print("Process 4 complete")
+    else:
+        anime_list = load_file("saved.csv")
 
     print(anime_list[0].title, get_links(anime_list[0].title))
     
@@ -113,9 +112,8 @@ def main():
     for show in genre_specific:
         print(show.title)
     
-    save_list(genre_specific)
+    save_list(anime_list)
 
-    print(f'finished in {round(end-start,2)} second(s)')
 
 if __name__ == "__main__":
     main()
