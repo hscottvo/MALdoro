@@ -7,10 +7,11 @@ from video import *
 from justwatch_query import * 
 from anime_comfy_levels import genre_finder, anime_levels
 #Creating tkinter window
-
+intensitylevel = 1
 def anime_click(title):
     open_link(get_links(title))
-
+def print_intensity():
+    print(intensitylevel)
 class Window(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -72,12 +73,12 @@ class Window(Frame):
         IntensityLvl = Combobox(self.upperframe, width = 27, textvariable = n, state= "readonly")
         IntensityLvl['values'] = ('1', '2','3','4','5','6','7','8','9','10')
         IntensityLvl.grid(column = c+6, row = r)
-        IntensityLvl.current(1)
+        intensitylevel = IntensityLvl.get()
         self.upperframe.grid_columnconfigure(c+1, weight=1)        
         ################## submit button        
-        Submit = Button(self.upperframe, text="Submit")
+        Submit = Button(self.upperframe, text="Submit", command = print_intensity)
         Submit.grid(column = c+6, row = r+20, sticky = E)
-   
+    
     def create_lowerentries(self):
         self.create_lowerframe()
         AnimeList=["Demon Slayer","Nisekoi","Jujutsu Kaisen","Adventure","Mystery","Romance","Fantasy","Psychological","School","Shounen","Magic","Slice of Life",]
@@ -147,8 +148,9 @@ class Window(Frame):
 
     
 def main():
-
     window = Tk()
     app = Window(window)
     window.mainloop()
+    
+    
 main()
