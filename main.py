@@ -13,14 +13,7 @@ genres_list = Genres()
 anime_id_new = []
 anime_id_completed = []
 
-FILENAME = "output.csv"
-with open(FILENAME, newline = "") as file:
-    reader = csv.reader(file)
-    for row in reader:
-        if row[4] == "Plan to Watch":
-            anime_id_new.append(row[5])
-        elif row[4] == "Completed":
-            anime_id_completed.append(row[5])
+
 
 # self.title = title
 # self.stress_counter = stress_counter
@@ -60,6 +53,16 @@ def main():
     anime_list = []
     xmlinput = input("enter xml file name: ") # button input
     parse_xml(xmlinput)
+
+    FILENAME = "output.csv"
+    with open(FILENAME, newline = "") as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if row[4] == "Plan to Watch":
+                anime_id_new.append(row[5])
+            elif row[4] == "Completed":
+                anime_id_completed.append(row[5])
+
     choice = input("new or completed? (n/c): ") # button input
     curr_id = []
     if choice.lower() == "n":
@@ -68,43 +71,43 @@ def main():
         curr_id = anime_id_completed
     choice = input("load anime or create new list? (l/c): ")
     if choice.lower() == "c":
-        mid = int(len(curr_id) / 2)
-        left = int(mid/2)
-        right = int(mid + left)
+        # mid = int(len(curr_id) / 2)
+        # left = int(mid/2)
+        # right = int(mid + left)
 
-        process1 = curr_id[:left]
-        process2 = curr_id[left:mid]
-        process3 = curr_id[mid:right]
-        process4 = curr_id[right:]
+        # process1 = curr_id[:left]
+        # process2 = curr_id[left:mid]
+        # process3 = curr_id[mid:right]
+        # process4 = curr_id[right:]
         
         # Alpha Future Processing
         with concurrent.futures.ProcessPoolExecutor() as executor:
-            results = executor.map(anime_levels,process1)
+            results = executor.map(anime_levels,curr_id)
             for result in results:
                 anime_list.append(result)
-        print("Process 1 complete")
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            results = executor.map(anime_levels,process2)
-            for result in results:
-                anime_list.append(result)
-        print("Process 2 complete")
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            results = executor.map(anime_levels,process3)
-            for result in results:
-                anime_list.append(result)
-        print("Process 3 complete")
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            results = executor.map(anime_levels,process4)
-            for result in results:
-                anime_list.append(result)
-        print("Process 4 complete")
+        print("\nProcess complete")
+        # with concurrent.futures.ProcessPoolExecutor() as executor:
+        #     results = executor.map(anime_levels,process2)
+        #     for result in results:
+        #         anime_list.append(result)
+        # print("\nProcess 2 complete")
+        # with concurrent.futures.ProcessPoolExecutor() as executor:
+        #     results = executor.map(anime_levels,process3)
+        #     for result in results:
+        #         anime_list.append(result)
+        # print("\nProcess 3 complete")
+        # with concurrent.futures.ProcessPoolExecutor() as executor:
+        #     results = executor.map(anime_levels,process4)
+        #     for result in results:
+        #         anime_list.append(result)
+        # print("\nProcess 4 complete")
     else:
         anime_list = load_file("saved.csv")
 
     print(anime_list[0].title, get_links(anime_list[0].title))
     
     genre_specific = []
-    specified_genres = ["Demons", "Sci-Fi", "Horror"]
+    specified_genres = ["Fantasy", "Horror", "Magic","Mystery"]
     for show in anime_list:
         if(show.genre_exist(specified_genres)):
             genre_specific.append(show)

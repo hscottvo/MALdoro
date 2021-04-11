@@ -1,7 +1,4 @@
-import pandas as pd
+from mal import Anime
 
-filename = "genre_list.csv"
-
-df = pd.read_csv(filename,index_col=0)
-
-print(df["Genres"])
+anime = Anime(1)
+print(anime.title)

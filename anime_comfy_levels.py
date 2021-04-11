@@ -25,7 +25,7 @@ def anime_levels(id, genres = genres_list):
             neutral_counter += 1
 
     obj = Anime_Obj(anime.title,stress_counter,calm_counter,neutral_counter,show_genres)
-    print("##############")
+    print("#",end="")
     return obj
 
 def main():
